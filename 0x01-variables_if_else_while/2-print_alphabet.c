@@ -1,3 +1,24 @@
-jhvk xXHGflxiafhb,ZC,ZHBFxkHJABflixhcbJb xhc 
-bx xbds xbx dh  NBvbhs dhsuhdsbhs
-ddhdhdbdhdbdhdb
+#include <stdio.h>
+
+/**
+ * * main - print lowervase a-z
+ * *
+ * * Description: using the main function
+ * * Return: 0
+ * */
+
+int main(void)
+{
+
+		char alpha = 'a';
+
+			while (alpha <= 'z')
+			{
+					putchar(alpha);
+						alpha++;
+			}
+			{
+					putchar('\n');
+			}
+				return (0);
+}
