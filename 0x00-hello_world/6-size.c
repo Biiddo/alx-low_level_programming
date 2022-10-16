@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
- *
- * Return: Always 0 (Success)
+ * main - Entrypoint for the program
+ * Descrition: the function prints the size of
+ * various datatypes as stringed intgers using
+ * the sizeof() function
+ * Return: 0
  */
-
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
