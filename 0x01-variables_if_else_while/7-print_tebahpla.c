@@ -1,41 +1,20 @@
-nclude <stdio.h>
-
-
-
+#include <stdio.h>
 /**
+ * main - Entry Point
  *
- * * main - print alphabet reversed using putchar
- *
- * * Return: Always 0 (Success)
- *
- * */
-
-
+ * Return: Always 0 (success)
+ */
 
 int main(void)
-
 {
+	char c;
 
-		char alpha = 'z';
-
-
-
-			while (alpha >= 'a')
-
-			{
-
-					putchar(alpha);
-
-						alpha--;
-
-			}
-
-				putchar('\n');
-
-
-
-					return (0);
-
-
-
+	c = 'z';
+	while
+		(c >= 'a') {
+			putchar(c);
+			c--;
+		}
+	putchar('\n');
+	return (0);
 }
