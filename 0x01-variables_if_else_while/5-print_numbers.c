@@ -1,41 +1,16 @@
 #include <stdio.h>
-
-
-
 /**
+ * main - Entry Point
  *
- * * main - print 0123456789
- *
- * * Return: Always 0 (Success)
- *
- * */
-
-
+ * Return: Always 0 (success)
+ */
 
 int main(void)
-
 {
-
-		int n = 0;
-
-
-
-			while (n < 10)
-
-			{
-
-					printf("%i", n);
-
-						n++;
-
-			}
-
-				putchar('\n');
-
-
-
-					return (0);
-
-
-
+	int a;
+	
+	for (a=0; a<=10; a++)
+		printf("%d", a);
+	putchar('\n');
+	return (0);
 }
