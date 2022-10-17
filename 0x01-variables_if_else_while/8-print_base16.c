@@ -1,65 +1,28 @@
 #include <stdio.h>
-
-
-
 /**
+ * main - Entry Point
  *
- *  * main - prints hexadecimal numbers base 0123456789abcdef, using putchar
- *
- *   * Return: Always 0 (Success)
- *
- *    */
-
-
-
-
-
-
+ */
 
 int main(void)
-
-
-
 {
+	char c;
 
+	int d;
 
-
-		int n = '0';
-
-			int a_to_f = 'a';
-
-
-
-				while (n <= '9') /* print 0-9*/
-
-				{
-
-						putchar(n);
-
-							n++;
-
-
-
-				}
-
-
-
-					while (a_to_f <= 'f') /* print a-f to finish hexbase*/
-
-					{
-
-							putchar(a_to_f);
-
-								a_to_f++;
-
-					}
-
-						putchar ('\n');
-
-
-
-							return (0);
-
-
-
+	c = 'a';
+	d = 0;
+	while
+		(d < 10) {
+			putchar(d + '0');
+			d++;
+		}
+	while
+		(c <= 'f') {
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
+	return (0);
 }
+
