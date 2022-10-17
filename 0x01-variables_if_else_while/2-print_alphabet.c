@@ -1,24 +1,21 @@
 #include <stdio.h>
 
 /**
- * * main - print lowervase a-z
- * *
- * * Description: using the main function
- * * Return: 0
- * */
+ * * main - Entry Point
+ *
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
+	char c;
 
-		char alpha = 'a';
-
-			while (alpha <= 'z')
-			{
-					putchar(alpha);
-						alpha++;
-			}
-			{
-					putchar('\n');
-			}
-				return (0);
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
+	return (0);
 }
