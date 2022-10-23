@@ -1,24 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - Entry Point
- *
- * Return: Alwats 0 (success)
- */
-
+  * main - Prints a serie of numbers with commas
+  *
+  * Return: Always (Success);
+  */
 int main(void)
-	{
-	int a;
+{
+	int c;
 
-	for (a = 0; a < 100; a++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(a + '0');
-		if (a < 9)
+		putchar(c);
+
+		if (c != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
-	putchar('\n');
-	return (0);
-	}
 
+	putchar('\n');
+
+	return (0);
+}
